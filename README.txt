@@ -22,3 +22,6 @@ NOTES / LIMITATIONS
 - Spotify playback is provided through Spotify's official embed. Some tracks/playback actions may require Spotify login or Premium and are subject to Spotify's policies and API availability.
 - The animated bars are decorative, not audio-reactive.
 - Never place a client secret in config.js or other browser code.
+
+
+NEEDLE v3 update: immersive full-screen vinyl scene with album sleeve left, spinning record and tonearm right, and Spotify embed controls at the bottom. Select a playlist/album/track to enter the vinyl scene. Spotify embeds are cross-origin, so the page cannot directly detect taps inside Spotify’s own Play button; the vinyl scene opens when the record is selected, and Spotify playback is started using the embedded controls.
