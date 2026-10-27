@@ -25,3 +25,6 @@ NOTES / LIMITATIONS
 
 
 NEEDLE v3 update: immersive full-screen vinyl scene with album sleeve left, spinning record and tonearm right, and Spotify embed controls at the bottom. Select a playlist/album/track to enter the vinyl scene. Spotify embeds are cross-origin, so the page cannot directly detect taps inside Spotify’s own Play button; the vinyl scene opens when the record is selected, and Spotify playback is started using the embedded controls.
+
+
+NEEDLE v4 PATCH: selecting an individual queue row now changes the large sleeve, center label, title/artist, and embedded Spotify player to that exact track. Full-length playback is controlled by Spotify's official player; the app cannot turn a preview into a full track if Spotify serves preview-only playback in that browser/session.
